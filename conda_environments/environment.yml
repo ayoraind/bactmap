@@ -1,0 +1,23 @@
+name: bactmap
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - fastp=0.20.1
+  - bcftools=1.11
+  - bwa=0.7.17
+  - samtools=1.10
+  - fastqc=0.11.9
+  - fasttree=2.1.10
+  - gubbins=2.4.1
+  - iqtree=2.1.2
+  - mash=2.3
+  - bioconda::multiqc=1.15
+  - rapidnj=2.3.2
+  - biopython==1.78
+  - rasusa=0.3.0
+  - raxml-ng=1.0.2
+  - snp-sites=2.5.1
+  - pip:
+    - pysam==0.21.0 
